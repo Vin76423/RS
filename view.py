@@ -1,0 +1,8 @@
+from app import app
+from flask import render_template
+
+# фласк в данном случае выдает значение по ключу, где значение - это наша функц.отображения.
+# {'/' : 'view.index'} :
+@app.route('/')
+def index():
+    return render_template('CSS_1.html')
