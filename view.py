@@ -3,6 +3,10 @@ from flask import render_template
 
 # фласк в данном случае выдает значение по ключу, где значение - это наша функц.отображения.
 # {'/' : 'view.index'} :
-@app.route('page/')
+@app.route('page1/')
 def index():
     return render_template('CSS_1.html')
+
+    @app.route('page2/')
+def index():
+    return render_template('CSS_2.html')
