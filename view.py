@@ -6,3 +6,14 @@ from flask import render_template
 @app.route('page/')
 def index():
     return render_template('CSS_1.html')
+
+@app.route('page/')
+def index():
+    return render_template('CSS_1.html')
+
+@app.route('page/')
+def index():
+    
+@app.route('page/')
+def index():
+    return render_template('CSS_1.html')
